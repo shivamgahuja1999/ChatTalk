@@ -1,8 +1,30 @@
-# React + Vite
+# ChatTalk 💬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ChatTalk is a real-time chat application built using the **MERN** stack (MongoDB, Express.js, React.js, Node.js) with **Socket.io** for live messaging. It allows users to communicate one-on-one in real-time with features like typing indicators, authentication, and a clean responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- 🔐 User Authentication (Login/Register)
+- 💬 One-on-One Real-Time Messaging
+- ✍️ Typing Indicators
+- 🟢 Online User Detection
+- 📱 Responsive Design (Mobile/Desktop)
+- 🧠 Built with Socket.io for two-way communication
+- 🔄 Seamless State Management using React hooks and context
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React.js
+
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Socket.io
+- bcrypt for Password Hashing
